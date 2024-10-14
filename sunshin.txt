@@ -1,118 +1,131 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunshine Kindergarten</title>
-</head>
-<body>
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to Sunshine Kindergarten</h1>
-        <nav>
-            <ul>
-                <li><a href="#welcome">Welcome</a></li>
-                <li><a href="#schedule">Weekly Schedule</a></li>
-                <li><a href="#gallery">Photo Gallery</a></li>
-                <li><a href="#resources">Parent Resources</a></li>
-                <li><a href="#teacher">About the Teacher</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Main Content Area -->
-    <main>
-        <!-- Welcome Message -->
-        <section id="welcome">
-            <h2>Welcome to Our Classroom!</h2>
-            <p>At Sunshine Kindergarten, we foster a love for learning through fun activities and engaging lessons!</p>
-        </section>
+!DOCTYPE html>
+<html>
+    <head>
+        <title>Sunshine Kindergarten</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        
+        
+        <header>
+                <h1>Welcome to Sunshine Kindergarten!</h1>
+                <p>Where Learning is Fun and Bright!</p>
+                <nav>
+                <a href="#" class="button">Home</a>
+                <a href="#" class="button">About</a>
+                <a href="#" class="button">contact</a>
+            </nav>
+        </header>
 
-        <!-- Weekly Schedule -->
-        <section id="schedule">
-            <h2>Weekly Schedule</h2>
-            <table border="1">
+        <section id="one">
+        <img id="schedule" src="background2.jpg" alt="image not found">            
+
+            <dev class="image-name">
+            <p >Welcome to Sunshine Kindergarten, we believe in a joyful and engaging learning environment for every child!</p>
+
+            <table style="table-layout:fixed; width: '100%'; ">
                 <thead>
                     <tr>
-                        <th>Day</th>
-                        <th>Subject 1</th>
-                        <th>Subject 2</th>
-                        <th>Subject 3</th>
-                        <th>Subject 4</th>
+                        <th colspan="6">Weekly Schedule</th>
+                    </tr>
+
+                    <tr>
+                        <th>Time</th>
+                        <th>Sunday</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Sunday</td>
-                        <td>Art and Craft</td>
-                        <td>Story Time</td>
-                        <td>Music and Movement</td>
-                        <td>Outdoor Play</td>
-                    </tr>
-                    <tr>
-                        <td>Monday</td>
-                        <td>Science Experiments</td>
-                        <td>Math Games</td>
-                        <td>Reading Corner</td>
-                        <td>Creative Writing</td>
-                    </tr>
-                    <tr>
-                        <td>Tuesday</td>
-                        <td>Nature Walk</td>
-                        <td>Cooking Class</td>
-                        <td>Circle Time</td>
-                        <td>Dance Party</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday</td>
-                        <td>Building Blocks</td>
-                        <td>Coloring Activities</td>
-                        <td>Storytelling</td>
-                        <td>Music Class</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday</td>
-                        <td>Physical Education</td>
-                        <td>Arts and Crafts</td>
-                        <td>Science Exploration</td>
+                        <td>8:00 - 9:00</td>
                         <td>Free Play</td>
+                        <td>Arts & Crafts</td>
+                        <td>Music & Movement</td>
+                        <td>Science Experiments</td>
+                        <td>Story Time</td>
+                    </tr>
+                    <tr>
+                        <td>9:00 - 10:00</td>
+                        <td>Story Time</td>
+                        <td>Outdoor Play</td>
+                        <td>Free Play</td>
+                        <td>Music & Movement</td>
+                        <td>Arts & Crafts</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 11:00</td>
+                        <td>Snack Time</td>
+                        <td>Story Time</td>
+                        <td>Outdoor Play</td>
+                        <td>Free Play</td>
+                        <td>Music & Movement</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 12:00</td>
+                        <td>Outdoor Play</td>
+                        <td>Snack Time</td>
+                        <td>Arts & Crafts</td>
+                        <td>Story Time</td>
+                        <td>Science Experiments</td>
                     </tr>
                 </tbody>
             </table>
+            </dev>
         </section>
 
-        <!-- Photo Gallery -->
-        <section id="gallery">
-            <h2>Photo Gallery</h2>
-            <div>
-                <img src="https://via.placeholder.com/150" alt="Class Activity 1">
-                <img src="https://via.placeholder.com/150" alt="Class Activity 2">
-                <img src="https://via.placeholder.com/150" alt="Class Activity 3">
-                <img src="https://via.placeholder.com/150" alt="Class Activity 4">
-            </div>
-        </section>
 
-        <!-- Parent Resources -->
-        <section id="resources">
-            <h2>Parent Resources</h2>
-            <p>Stay updated with our weekly newsletter and important announcements.</p>
-            <ul>
-                <li><a href="#">Weekly Newsletter</a></li>
-                <li><a href="#">Upcoming Events</a></li>
-                <li><a href="#">Contact Information</a></li>
+        <main>
+    
+
+            <!-- Photo Gallery Section -->
+            <section id="gallery">
+                <h2 style="font-size:30px;">Photo Gallery</h2>
+                <div class="gallery">
+                    <img src="https://i.pinimg.com/originals/8b/68/bb/8b68bb8339d0f8f263c48917e8869a1b.jpg" alt="Classroom Activity 1" width="300" height="200">
+                    <img src="https://t4.ftcdn.net/jpg/04/15/40/39/240_F_415403998_z31IHWM4YydnnMgGi3FsSOoTs1euV63K.jpg" alt="Classroom Activity 2" width="300" height="200">
+                    <img src="https://t4.ftcdn.net/jpg/08/37/15/81/240_F_837158142_3ucs7VGKwO0TzLCnsfdepcUFWDePGIHI.jpg" alt="Classroom Activity 3" width="300" height="200">
+                    <img src="https://t4.ftcdn.net/jpg/02/24/26/15/240_F_224261536_6Tk8A25viApzJbtEb3Oni5rZIsChdGJa.jpg" alt="Classroom Activity 4" width="300" height="200">
+                    <img src="https://t4.ftcdn.net/jpg/02/16/02/05/240_F_216020538_H7OR4B5M2XYGQYND4bhus7r4NIQBF0ZM.jpg" alt="Classroom Activity 5" width="300" height="200">
+                    <img src="https://t4.ftcdn.net/jpg/01/57/47/83/240_F_157478360_BM851Sg3na7Ai3zQZDlxatcLfRnKlO8m.jpg" alt="Classroom Activity 6" width="300" height="200">
+                    <img src="https://t3.ftcdn.net/jpg/02/13/76/56/240_F_213765664_FR6qrMdN2FpAhQDk8eOdUjoLvLvH5dGB.jpg" alt="Classroom Activity 7" width="300" height="200">
+                    <img src="https://t4.ftcdn.net/jpg/00/96/25/33/240_F_96253396_d1eOoEqt6DuAfrFP2edmj0f8Sl146tGa.jpg" alt="Classroom Activity 8" width="300" height="200">
+                </div>
+            </section>
+        
+            <!-- Resources/Announcements Section -->      
+            <section id="resources">
+                <h2 style="font-size:30px;">Parent Resources</h2>
+                <p style="font-size:25px;">Stay updated with important announcements and resources:</p>
+                <ul style="font-size:20px;">
+                    <li><a href="#">Weekly Newsletter</a></li>
+                    <li><a href="#">Upcoming Events</a></li>
+                    <li><a href="#">Contact Information</a></li>
+                </ul>
+            </section>
+        
+            <!-- Teacher Information Section -->
+            <section id="teacher-info">
+                <h2 style="font-size:30px;">About the Teacher</h2>
+                <ul style="font-size:20px;">
+                    <li><strong>Ms. Jane Doe </strong>is passionate about nurturing young minds and creating a fun learning environment.</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p> Follow us on:</p>
+            <ul style="font-size:20px;"> 
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
             </ul>
-        </section>
-
-        <!-- Information about the Teacher -->
-        <section id="teacher">
-            <h2>About the Teacher</h2>
-            <p>Ms. Jane Doe is passionate about nurturing young minds and creating a fun learning environment.</p>
-        </section>
-    </main>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 Sunshine Kindergarten. All rights reserved.</p>
-    </footer>
-</body>
+            <p>Contact: Sunshine@gmail.com</p>
+            <p>&copy; 2024 Sunshine Kindergarten. All rights reserved.</p>
+        </footer>
+    </body>
 </html>
